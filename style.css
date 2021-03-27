@@ -30,6 +30,7 @@ span {
 
 a {
   color: white;
+  margin: 0 5px;
 }
 
 .social {
@@ -41,3 +42,6 @@ a {
   text-decoration: none;
 }
 
+.link-page-i {
+  margin: 0 5px;
+}
