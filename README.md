@@ -9,4 +9,4 @@ I will put the content that helped me to build it linked here so I can get acces
 * [Como usar Font Awesome em seus projetos?](https://blog.dankicode.com/como-usar-font-awesome/)  
 * [Centralizando um objeto na Horizontal e Vertical com CSS](https://tableless.com.br/centralizando-um-objeto-na-horizontal-e-vertical-com-css/)  
   
-I also used my [links](https://github.com/mayraamaral/links) source code and made some adaptions. The main code was based on [LittleLink](https://littlelink.io/).
+I also used my [links](https://github.com/mayraamaral/links) source code and made some adaptations. The main code was based on [LittleLink](https://littlelink.io/).
