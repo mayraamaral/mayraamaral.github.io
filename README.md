@@ -7,8 +7,8 @@ I will put the content that helped me to build it linked here so I can get acces
   
 * [Setup FontAwesome using CDN](https://fontawesome.com/how-to-use/customizing-wordpress/snippets/setup-cdn-webfont)  
 * [CSS Dominando o FontAwesome](https://www.treinaweb.com.br/blog/css-dominando-o-font-awesome/)  
-* [CSS: centralizando coisas](https://www.w3.org/Style/Examples/007/center.pt_BR.html)
 * [Como usar Font Awesome em seus projetos?](https://blog.dankicode.com/como-usar-font-awesome/)  
+* [CSS: centralizando coisas](https://www.w3.org/Style/Examples/007/center.pt_BR.html)
 * [Centralizando um objeto na Horizontal e Vertical com CSS](https://tableless.com.br/centralizando-um-objeto-na-horizontal-e-vertical-com-css/)  
   
 I also used my [links](https://github.com/mayraamaral/links) source code and made some adaptations. The main code was based on [LittleLink](https://littlelink.io/).
