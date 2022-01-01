@@ -179,6 +179,7 @@ footer p {
 
     nav {
       position: static;
+      text-align: center;
     }
 
     .lista-beneficios, .beneficios-img, .beneficios ul {
