@@ -1,34 +1,127 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mayra Amaral | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link rel="icon" type="image/png" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mayra Amaral | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
-
-  <div class="main">
-    <img src="images/mayra.png" srcset="images/mayra.png 2x">
-    <p>Meu nome é <span>Mayra Amaral</span>.</p>
-    <p>Eu sou desenvolvedora.</p>
-    <p class="const">Esta página está sendo construída.</p>
-    
-    <div class="social">
-      <a target="_blank" href="https://github.com/mayraamaral"><i class="fab fa-github fa-lg"></i></a>
-      <a target="_blank" href="https://linkedin.com/in/mayraamaral"><i class="fab fa-linkedin fa-lg"></i></a>
-      <a target="_blank" href="https://medium.com/@mayraamaral"><i class="fab fa-medium fa-lg"></i></a>
-      <a target="_blank" href="https://dribbble.com/mayraamaral"><i class="fab fa-dribbble fa-lg"></i></a>
-      <a target="_blank" href="https://behance.net/mayraamaral"><i class="fab fa-behance fa-lg"></i></a>
-      <a target="_blank" href="https://codepen.io/mayraamaral"><i class="fab fa-codepen fa-lg"></i></a>
-      <a target="_blank" href="https://t.me/mayrajs"><i class="fab fa-telegram fa-lg"></i></a>
+    <div id="loading">
+        <div id="spinner"></div>
     </div>
-    <a target="_blank" href="https://mayraamaral.github.io/links" class="links-page"><i class="fas fa-link link-page-i"></i>Página de links</a>
-    
-  </div>
-  
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Mayra Amaral.</td>
+                <td id="navigation">
+                    <a href="#work">projetos</a>
+                    <a href="#xp">experiência</a>
+                    <a href="#bio">sobre</a>
+                    <a href="#school">formação</a>
+                    <!--<a href=""></a>-->
+                    <a href="#contact">contato</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>software developer</h1>
+                <button class="btn_one">View CV</button><br>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://www.linkedin.com/in/mayraamaral/" target="_blank"><i class="fab fa-linkedin-in"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="https://github.com/mayraamaral" target="_blank"><i class="fab fa-github"></i></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="work">
+        <h1>projetos</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="https://img.freepik.com/free-vector/artificial-intelligence-isometric-icon-server-room-datacenter-database-concept_39422-772.jpg?t=st=1655825682~exp=1655826282~hmac=370bf52349a13b517e0120ecb4b0e0bd7787b7c662268c29547eed6624fd0101&w=740">
+        </div>
+    </div>
+    <div class="bio" id="xp">
+        <h1>experiência</h1>
+      <ul>
+        <li><strong>DBC Company</strong> - jun/2022 - Atualmente - Software Developer Intern</li>
+        <li><strong>Ambev S.A.</strong> - abr/2021 - mai/2022 - Aprendiz Financeiro</li>
+      </ul>
+    </div>
+    <div id="bio">
+        <h1>sobre</h1>
+        <p>
+            Desenvolvedora apaixonada por criar soluções e resolver problemas. Comecei meus estudos sobre programação em 2015, quando iniciei no Curso Técnico em Eletrônica. Hoje curso Análise e Desenvolvimento de Sistemas e trabalho como frontend developer intern na DBC Company.
+        </p>
+    </div>
+    <div class="bio" id="school">
+        <h1>formação</h1>
+      <ul>
+        <li><strong>UNINTER</strong> - 2022 - Atualmente - Análise e Desenvolvimento de Sistemas</li>
+        <li><strong>UFPB</strong> - 2021 - Atualmente - Bacharelado em Engenharia de Produção</li>
+        <li><strong>IFPB</strong> - 2015-2019 (Concluído) - Curso Técnico em Eletrônica Integrado ao Ensino Médio</li>
+      </ul>
+    </div>
+    <div id="contact">
+        <h1>contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <!--<tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
+                                </tr>-->
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; mayracunha18@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                        João Pessoa,<br>
+                                        Paraíba,<br>
+                                        Brazil
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="social" href="https://www.linkedin.com/in/mayraamaral/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="social" href="https://github.com/mayraamaral" target="_blank"><i class="fab fa-github"></i></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form action="https://formspree.io/f/mayracunha18@gmail.com"
+                        method="POST">
+                            <input type="text" placeholder="nome" required>
+                            <input type="email" placeholder="email" required><br>
+                            <textarea placeholder="mensagem" required rows="5"></textarea><br>
+                            <button class="btn_one">enviar</button>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <div id="footer">
+        based on template developed by <br> <a href="https://imfunniee.github.io">imfunniee</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
