@@ -1,4 +1,7 @@
-# Simple and temporary profile page
+# SECOND VERSION
+Based on github user's imfunniee [template](https://imfunniee.github.io/fimbo/).  
+
+## FIRST VERSION
 This page is temporary, I'm using it while I build my main webpage and portfolio.  
 You can access it at [mayraamaral.github.io](https://mayraamaral.github.io).
   
